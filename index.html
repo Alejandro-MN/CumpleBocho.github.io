@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación de Cumpleaños</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #000000, #1a1a1a);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      background: #222;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 10px 0 10px 0;
+      color: #0ff;
+      text-shadow: 
+        0 0 5px #0ff, 
+        0 0 10px #0ff, 
+        0 0 20px #0ff, 
+        0 0 40px #0ff,
+        2px 2px 5px #000;
+      animation: neon 2s infinite alternate;
+    }
+    @keyframes neon {
+      0% { color: #00ffff; text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 40px #00ffff, 2px 2px 5px #000; }
+      50% { color: #ff00ff; text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff, 2px 2px 5px #000; }
+      100% { color: #00ff00; text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px #00ff00, 2px 2px 5px #000; }
+    }
+    .cr7-video {
+      width: 300px;
+      height: 300px;
+      margin: 10px 0;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin: 10px 0;
+    }
+    .details {
+      margin-top: 10px;
+      font-size: 1.1em;
+    }
+    .description {
+      margin-top: 15px;
+      font-style: italic;
+      color: #ccc;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>¡The BochoFest!</h1>
+    <video class="cr7-video" src="Bochito.mp4" autoplay loop></video>
+
+    <h2>Cumpleaños de: <span style="color: #FFD700;">Bochito :3</span></h2>
+
+    <div class="details">
+      <p><strong>Fecha y Hora:</strong> Viernes 3 de mayo en horario de 5 pm</p>
+      <p><strong>Lugar:</strong> Ya saben donde vivo mamones</p>
+    </div>
+
+    <div class="description">
+      <p>¡Llevar algo con lo que te vayas a poner burro 😂!</p>
+    </div>
+
+    
+  </div>
+
+</body>
+</html>
